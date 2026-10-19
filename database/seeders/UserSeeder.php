@@ -15,17 +15,17 @@ class UserSeeder extends Seeder
     {
         // Owner account
         User::create([
-            'name' => 'Ikhsan Fitrah Al Mubarak',
-            'email' => 'owner@bengkel.com',
-            'password' => Hash::make('password123'),
+            'name' => 'Owner Bengkel',
+            'email' => '@example.com',
+            'password' => Hash::make('pass'),
             'role' => 'owner',
         ]);
 
         // Admin account
         User::create([
             'name' => 'Admin Bengkel',
-            'email' => 'admin@bengkel.com',
-            'password' => Hash::make('password123'),
+            'email' => '@example.com',
+            'password' => Hash::make('pass'),
             'role' => 'admin',
         ]);
     }
