@@ -46,12 +46,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'sql113.infinityfree.com'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'if0_41827459_bengkel'),
-            'username' => env('DB_USERNAME', 'if0_41827459'),
-            'password' => env('DB_PASSWORD', 'TQqNaMYgBDZP6YL'),
-            // ... sisanya tetap sama ...
+            'host' => env('DB_HOST', ''),
+            'port' => env('DB_PORT', ''),
+            'database' => env('DB_DATABASE', ''),
+            'username' => env('DB_USERNAME', ''),
+            'password' => env('DB_PASSWORD', ''),
 
         ],
 
